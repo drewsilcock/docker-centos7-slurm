@@ -2,9 +2,9 @@ name: Slurm cluster - Build and publish Docker image
 
 on:
   push:
-    # branches:
-    #   - main
-    #   - dev
+    branches:
+      - main
+      - dev
 
 env:
   REGISTRY: ghcr.io
